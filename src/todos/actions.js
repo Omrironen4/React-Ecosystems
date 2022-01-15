@@ -10,7 +10,7 @@ export const createTodo = text => ({
 //Used for when our user will remove a todo
 export const REMOVE_TODO = 'REMOVE_TODO';
 export const removeTodo = text => ({
-    tyoe: REMOVE_TODO,
+    type: REMOVE_TODO,
     payload: { text },
 });
 

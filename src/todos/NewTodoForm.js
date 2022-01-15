@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { connect } from 'react-redux';
 import './NewTodoForm.css';
+
 
 const NewTodoForm = () => {
     const [inputValue, setInputValue] = useState('');
